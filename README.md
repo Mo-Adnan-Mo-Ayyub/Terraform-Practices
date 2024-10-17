@@ -5,11 +5,6 @@ Welcome to the Terraform Practices repository! This project serves as a collecti
 We can create :
 
 1-ec2-instance
-
-resource "aws_instance" "tf-instance" {
-  ami = var.ami_value                       #var and . then ami variable name 
-  instance_type = var.instance_type_value   #var and . then instance type variable name
-
 2-s3-buckut
 3-vpc (ig,subnet,sg,rt)
 4-variables
